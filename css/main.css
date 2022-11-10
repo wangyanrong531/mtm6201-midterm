@@ -47,3 +47,105 @@ table {
 	border-spacing: 0;
 }
 
+/* whole pages style */
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+img {
+    width: 100%;
+}
+
+/* this is mobile style header  */
+header {
+    display: flex;
+    flex-direction: column;
+    background-color:rgba(251, 223, 112, 1);
+   
+}
+
+.wrapper{
+    width:15%;
+    margin: 1 4;
+    display:block;
+    text-align:center;
+}
+    
+nav{
+    background-color:rgba(56, 78, 157, 1);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display:block;
+    width:100%;
+    text-align:center;
+}
+
+li a{
+    display:block;
+    padding: 10px;
+    color:whitesmoke;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+form{
+    margin: 5px auto;
+    size: 30px;
+}
+
+form input {
+    height: 30px;
+    width: 33%;
+}
+
+ul li a:hover {
+    background-color:rgba(251, 223, 112, 1);
+    color:#222;
+}
+
+ul li a.active{
+    background-color:rgba(251, 223, 112, 1);
+    color: #222;
+}
+
+.fa-magnifying-glass{
+    color:whitesmoke;
+}
+
+/* container holding the image and the text */
+
+.container{
+    margin:10px auto;
+    background-image: url(../images/banner-logo.jpg);
+    background-size:cover;
+    background-position:center;
+    padding: 90px;
+}
+
+.container .main-title{
+    font-size: 56px;
+    color:;rgba(135, 121, 113, 1);
+    background: rgba(135, 121, 113, 0.5);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    padding: 20px;
+    width: 30px 20px;
+}
+
+.container .welcome{
+    color:;rgba(135, 121, 113, 1);
+    background: rgba(135, 121, 113, 0.5);
+    padding: 6px;
+    padding-bottom: 17px; 
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.about-content p{
+    font-size:medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+  }
+
+h2{
+    font-size: larger;
+    font-weight: bolder;
+    color:rgba(135, 121, 113, 1) ;
+}
