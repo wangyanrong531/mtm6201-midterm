@@ -93,7 +93,7 @@ form{
 
 form input {
     height: 30px;
-    width: 33%;
+    width: 40%;
 }
 
 ul li a:hover {
@@ -114,10 +114,10 @@ ul li a.active{
 
 .container{
     margin:10px auto;
-    background-image: url(../images/banner-logo.jpg);
+    background-image: url(../images/banner-sm.png);
     background-size:cover;
     background-position:center;
-    padding: 90px;
+    padding: 20px;
 }
 
 .container .main-title{
@@ -147,5 +147,82 @@ ul li a.active{
 h2{
     font-size: larger;
     font-weight: bolder;
-    color:rgba(135, 121, 113, 1) ;
+    color:rgba(92, 82, 76, 1);
+    padding:20px;
+    text-align:center;
 }
+
+article img{
+    border-radius: 50%;
+    width: 55%;
+    padding-left: 120px;
+    padding-right: 120px;
+
+}
+
+.example{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color:rgba(138, 68, 28, 1);
+    padding: 10px;
+    text-align:center;
+}
+
+.lastwords{
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: small;
+    text-align:center;
+
+}
+
+.about-content{
+    background-color:rgba(254, 250, 231, 1)
+}
+
+.about-content p{
+    padding: 10px;
+    font-size: small;
+    text-align:center;
+}
+
+.now{
+    background-color: rgba(56, 78, 157, 1);
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(251, 223, 112, 1);
+    padding: 10px;
+    text-align: center;
+}
+
+footer{
+    background-color: rgba(251, 223, 112, 1);
+    font-family: Georgia, 'Times New Roman', Times, serifrgba(251, 223, 112, 1);
+    padding:20px;
+    margin: 10px;
+}
+
+footer p{
+    padding: 10px;
+}
+
+footer h4{
+    padding: 20px;
+    font-weight: bold;
+}
+
+.ins{
+    padding: 10px;
+}
+
+.youtube{
+    padding:10px;
+}
+
+
+
+/* .about-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+} */
