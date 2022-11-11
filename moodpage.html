@@ -12,12 +12,12 @@
         <img src="images/Fresh-and- heaLthy.jpg" alt="logo">
     </div>
 
-    <nav>
+    <nav id="top">
         <ul>
-            <li><a href="#" class="active">Home</a></li>
-            <li><a href="#">Pre-order</a></li>
-            <li><a href="#">Mood Story</a></li>
-            <li><a href="#">Join us</a></li>
+            <li><a href="homepage.html" class="active">Home</a></li>
+            <li><a href="orderpage.html">Pre-order</a></li>
+            <li><a href="moodpage.html">Mood Story</a></li>
+            <li><a href="#contact">Join us</a></li>
         </ul>
         <form class="search">
             <input id="search" type="text" name="search" placeholder="Want to Match Your Own Mood Cake? ">
@@ -28,12 +28,14 @@
 
 <body>
     <section>
-        <h2>Mood Story</h2> 
-        <p>we can always find the correct cake flavor to match your current mood. If you are having a divorce party, you could get the salty cake pop- that is devil food cake with salted caramel icing, or if you have a baby shower, you could get the exciting cake pop which is confetti cake with fudge icing, break up, graduation, birthday party, anniversary and so on. 
+        <div class="mood-story">
+            <h2>Mood Story</h2> 
+            <p>we can always find the correct cake flavor to match your current mood. If you are having a divorce party, you could get the salty cake pop- that is devil food cake with salted caramel icing, or if you have a baby shower, you could get the exciting cake pop which is confetti cake with fudge icing, break up, graduation, birthday party, anniversary and so on. 
+            <p>You can always find a flavor that matches your mood. Often our food experiences are tied to memories and stories.</p>
+        </div>
     
-        <p>You can always find a flavor that matches your mood. Often our food experiences are tied to memories and stories.</p>
             
-        <h2>Instagram @Mood Museum</h2>
+        <h2 class="ins-mood">Instagram @Mood Museum</h2>
         <img src="images/mood-museum-banner.png" alt="museum">
     
         <h2>What is Mood Museum ?</h2>
@@ -41,24 +43,38 @@
     
         <h2>Mood Cake Merch</h2>
         <img src="images/merch-mood.png" alt="museum">
-            <aside class="contact-section">
-              <h1>Contact Us</h1>
-              <form action="thanks.html">
-                <label for="yourname">Full Name</label>
-                <input type="text" placeholder="Full Name" aria-label="Full Name">
-                <label for="email">Email:</label>
-                <input type="text" placeholder="Email" aria-label="Email">
-                <label for="subject">Subject</label>
-                <input type="text" placeholder="Subject" aria-label="Subject">
-                <label for="your-message">Your Message</label>
-                <textarea type="text" placeholder="Message" aria-label="message"></textarea>
-                <button required="submit" aria-label="submit">Send</button>
-              </form>
-            </aside>
+
+        <section class="owner">
+            <h1>Meet the owner</h1>
+            <ul itemscope itemtype="https://schema.org/person">
+              <li itemprop="name">Name: Riley Rong</li>
+              <li itemprop="jobtitle">Title: Owner</li>
+              <li itemprop="email">Email: wang0886@algonquinlive.com</li>
+              <li >Phone: 905-341-8862</li>
+              <li itemprop="address">Address: 265 Elgin Street, Ottawa L2V 2P9</li>
+            </ul>
+        </section>
+        
+            </div>
+            <aside class="contact" id="contact">
+                <h1>Contact Us</h1>
+                <form action="thanks.html">
+                  <label for="yourname">Full Name</label>
+                  <input type="text" placeholder="Full Name" aria-label="Full Name">
+                  <label for="email">Email:</label>
+                  <input type="text" placeholder="Email" aria-label="Email">
+                  <label for="your-message">Your Message</label>
+                  <textarea type="text" placeholder="Message" aria-label="message"></textarea>
+                  <button type="submit" aria-label="submit">Send</button>
+                </form>
+              </aside>
+
+
     </section>
 
  <footer>
     <section class="copyright">
+        <a href="#top">Back to Top</a>
         <p>© Coperight Yanrong Wang, 2022</p>
         <p>location: 265 Elgin Street, Ottawa L2V 2P9</p>
         <p>Contact us : 905-341-8862</p>
