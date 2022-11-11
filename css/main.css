@@ -65,7 +65,7 @@ header {
 
 .wrapper{
     width:15%;
-    margin: 1 4;
+    margin: 1rem 4rem;
     display:block;
     text-align:center;
 }
@@ -88,7 +88,6 @@ li a{
 
 form{
     margin: 5px auto;
-    size: 30px;
 }
 
 form input {
@@ -122,16 +121,15 @@ ul li a.active{
 
 .container .main-title{
     font-size: 56px;
-    color:;rgba(135, 121, 113, 1);
+    color:rgb(41, 37, 35);
     background: rgba(135, 121, 113, 0.5);
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-weight: bolder;
     padding: 20px;
-    width: 30px 20px;
 }
 
 .container .welcome{
-    color:;rgba(135, 121, 113, 1);
+    color:rgb(41, 37, 35);
     background: rgba(135, 121, 113, 0.5);
     padding: 6px;
     padding-bottom: 17px; 
@@ -154,9 +152,8 @@ h2{
 
 .about-section img{
     border-radius: 50%;
-    width: 55%;
-    padding-left: 120px;
-    padding-right: 120px;
+    /* width: 45% auto; */
+    padding: 20px;
 
 }
 
@@ -197,7 +194,7 @@ h2{
 
 footer{
     background-color: rgba(251, 223, 112, 1);
-    font-family: Georgia, 'Times New Roman', Times, serifrgba(251, 223, 112, 1);
+    font-family: Georgia, 'Times New Roman', Times, serif;
     padding:20px;
     margin: 10px;
 }
@@ -219,6 +216,79 @@ footer h4{
 .youtube{
     padding:10px;
 }
+
+.pre-order {
+    background-image: url(../images/order-new.png);
+    padding: 60px;
+    background-size:cover;
+    color:whitesmoke;
+}
+
+.pre-order p{
+    font-size: 20px;
+    background: rgba(135, 121, 113, 0.7);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.information h2{
+    font-size: medium;
+    font-style: italic;
+    background-color: rgba(254, 250, 231, 1);
+}
+
+.information p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 5px;
+    font-style: italic;
+}
+
+.match-tittle{
+    background-color: rgba(251, 223, 112, 1);
+    margin: 20px;
+    padding: 20px;
+}
+
+.metch img{
+    border-radius: 55%;
+    /* width: 45% auto; */
+}
+
+.metch p{
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: small;
+    text-align:center;
+}
+
+table{
+    width:100%;
+    margin: 20px;
+}
+
+table, th,td{
+    border:1px solid;
+    padding:10px;
+    align-content: center;
+}
+
+caption{
+    font-size: 30px;
+    font-weight: bold;
+    padding:10px;
+    margin-right: 30%;
+    align-content: center;
+}
+
+th{
+    background-color:rgba(56, 78, 157, 1);
+    color: aliceblue;
+}
+
+
+
+
 
 
 /* laptop vision */
@@ -288,7 +358,7 @@ footer h4{
         display:flex;
         flex-direction: row;
         justify-content: center;
-        padding: 2opx;
+        padding: 20px;
     }
 
     footer{
@@ -298,15 +368,92 @@ footer h4{
         justify-content: center;
     }
 
+/* flex order page */
+    .metch{
+        display: grid;
+        grid-template-columns: repeat(0,1fr);
+        /* 2 columns space, 4 columns line */
+        border-radius: 5px;
+        column-gap: 10px;
+        margin: 40px;
+       margin-bottom: auto;
+        /* padding: 0px 0px 0px 0px; */
+    }
+    .metch img{
+        border-radius: 8px;
+        
+       
+    }
 
 
 
+    .happy{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
 
+    .curious{
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .calm{
+        grid-column-start: 5;
+        grid-column-end: 6;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
 
-
-
+    .suprised{
+        grid-column-start: 7;
+        grid-column-end: 8;
+        grid-row-start: 1;
+        grid-row-end: 2;
 
     }
+   .annoying{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
+   }
+
+   .argument{
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 3;
+        grid-row-end: 4;
+   }
+
+   .alone{
+        grid-column-start: 5;
+        grid-column-end: 6;
+        grid-row-start: 3;
+        grid-row-end: 4;
+   }
+
+   .sleepy{
+        grid-column-start: 7;
+        grid-column-end: 8;
+        grid-row-start: 3;
+        grid-row-end: 4;
+
+   }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
